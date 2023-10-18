@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+    <style>
+      body {
+      font-family: Arial;
+      }
+    </style> 
   </head>
 
   <body>
-    <ul>
-      <li><a href="/rock"> Play Rock </li></a>
-      <li><a href="/paper"> Play Paper </li></a>
-      <li><a href="/scissors"> Play Scissors </li></a>
-    </ul>
+    <div><a href="/rock"> Play Rock </a></div>
+    <div><a href="/paper"> Play Paper </a></div>
+    <div><a href="/scissors"> Play Scissors </a></div>
+    
     <%= yield %>
-
+    <div><a href="/"> Rules </a></div>
   </body>
 </html>
